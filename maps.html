@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Maps page</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+  <ul class="nav">
+    <li><a href="index.html">Resume</a> </li>
+    <li><a href="favfood.html">Food</a> </li>
+    <li><a href="favholidaydestination.html">Holiday</a> </li>
+    <li class="active"><a href="#">Maps</a> </li>
+  </ul>
+  <div id="main-fluid">
+    <h1>Places I have been in My Country</h1>
+    <div id="map"></div>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf7jnB5cVpKMmu0ertpmaB44u5zeo3MP0&libraries=visualization&callback=initMap&v=weekly" defer></script>
+</body>
+</html>
