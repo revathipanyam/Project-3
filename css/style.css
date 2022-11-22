@@ -6,11 +6,18 @@ body{
   line-height: 1.5;
 }
 #map{
-  position: center;
+	{
+  position: relative;
   width: 55%;
   height: 600px;
   border: solid black 5px;
   border-radius: 20px;
+	}
+	section{
+  box-sizing: border-box;
+  width: 80%;
+  margin: 3em auto;
+	}
 }
 nav{
   background-color:#45818e;
