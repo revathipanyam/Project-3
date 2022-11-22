@@ -7,7 +7,7 @@ function initMap() {
 
 	new google.maps.Marker({
     	position: myLatLng,
-    	map,
+    	map: map,
  	 });
 	new google.maps.Marker({
         position: new google.maps.LatLng(14.70767788305069, 77.60588335498916),
