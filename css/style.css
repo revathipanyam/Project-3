@@ -5,6 +5,14 @@ body{
   font-size: 1em;
   line-height: 1.5;
 }
+#map{
+  position: relative;
+  width: 55%;
+  height: 600px;
+  right: 20%;
+  border: solid black 5px;
+  border-radius: 20px;
+}
 nav{
   background-color:#45818e;
   width: 100%;
