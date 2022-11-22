@@ -2,9 +2,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 14.727355574823836, lng: 77.59688877403104},
     zoom: 15,
-	zoomControl: false,
-    scaleControl: true,
-	mapTypeId: 'hybrid'
+    mapTypeId: google.maps.MapTypeID.SATELLITE,
   });
   
   var marker = new google.maps.Marker({
