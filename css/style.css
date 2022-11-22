@@ -6,7 +6,7 @@ body{
   line-height: 1.5;
 }
 #map{
-  position: relative;
+  position: center;
   width: 55%;
   height: 600px;
   border: solid black 5px;
