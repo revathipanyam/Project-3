@@ -3,7 +3,7 @@ function initMap() {
     zoom: 15,
     center: { lat: 14.675796515578558, lng: 77.59489702704062},
     gestureHandling: "none",
-    zoomControl: true,
+    zoomControl: false,
     scaleControl: true,
   });
   
