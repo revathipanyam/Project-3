@@ -79,6 +79,10 @@ footer p a{
   clear: none;
   background-color: #f2f5f5;
 }
+@viewport{
+	width: device-width;
+	zoom: 1.0;
+}
 @media screen and (max-width: 900px) and (min-width: 600px){
 	.index-title{
   		font-size: 30px;
